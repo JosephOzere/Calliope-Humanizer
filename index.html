@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Calliope Humanizer - AI Humanizer: Free and open-source tool for paraphrasing and humanizing text. 100% free, no login required, with responsive design and SEO optimization." />
+    <meta name="keywords" content="AI Humanizer, Humanizer AI Free, Free Paraphrasing Tool, Open Source AI Tools" />
+    <meta name="author" content="Calliope Humanizer" />
+    <title>Calliope Humanizer - Free AI Humanizer & Text Paraphraser Tool | Anti AI Detection</title>
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Calliope Humanizer - Free AI Humanizer & Text Paraphraser Tool | Anti AI Detection" />
+    <meta name="description" content="Free online AI text humanizer and paraphraser. Bypass AI detection, create human-like content, and avoid plagiarism. No login required, 100% free tool for students and writers." />
+    <meta name="keywords" content="AI Humanizer, AI Text, Paraphraser, Anti Plagiarism, Anti AI, Bypass AI Detection, AI Text Converter, Human Writing Generator, Free AI Tool, AI Detection Bypass, Text Humanizer" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Calliope Humanizer - Free AI Humanizer & Text Paraphraser Tool" />
+    <meta property="og:description" content="Free online AI text humanizer and paraphraser. Bypass AI detection, create human-like content, and avoid plagiarism. No login required, 100% free tool." />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="Calliope Humanizer - Free AI Humanizer & Text Paraphraser Tool" />
+    <meta property="twitter:description" content="Free online AI text humanizer and paraphraser. Bypass AI detection, create human-like content, and avoid plagiarism. No login required, 100% free tool." />
+
+    <meta name="google-site-verification" content="your-verification-code" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="logo">Calliope Humanizer</h1>
+            <p class="tagline">Transform AI-generated content into natural, human-like writing</p>
+        </header>
+        
+        <main>
+            <div class="card">
+                <h2 class="card-title"><i class="fas fa-keyboard"></i> Input Text</h2>
+                <div class="input-group">
+                    <textarea id="ai-input" placeholder="Paste your AI-generated text here..." maxlength="5000"></textarea>
+                    <div id="char-count" class="char-count">0/5000 characters</div>
+                    <button id="humanize-btn" class="btn">
+                        <span>Humanize Text</span>
+                        <div id="spinner" class="spinner"></div>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h2 class="card-title"><i class="fas fa-file-alt"></i> Humanized Output</h2>
+                <div class="output-container">
+                    <textarea id="human-output" placeholder="Your humanized text will appear here..." readonly></textarea>
+                    <div class="output-actions">
+                        <button id="copy-btn" class="btn btn-secondary" title="Copy to clipboard">
+                            <i class="fas fa-copy"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h2 class="card-title"><i class="fas fa-info-circle"></i> About This Service</h2>
+                <p>Calliope Humanizer is a free AI text humanizer service designed to help students transform AI-generated content into natural, human-sounding text. And to prove Colin Munn Wrong, since he said I couldn't do it.</p>
+                <p>Our advanced algorithm follows strict guidelines to ensure the output is engaging, authentic, and free from robotic patterns typical of AI-generated content.</p>
+                <p>This service remains completely free to use thanks for my friends forever.</p>
+                <p>This will not always produce 0% AI detection results, since I used an older public model.</p>
+            </div>
+        </main>
+        
+        <section class="donation-section">
+            <h2 class="donation-title">Thank you for Supporting My Project</h2>
+            <p class="donation-text">
+                I am committed to keeping Calliope Humanizer free for my friends.
+            </p>
+        </section>
+        
+        <footer>
+            <p>&copy; <span id="current-year"></span> Calliope Humanizer. All rights reserved.</p>
+            <p>Built by <a href="https://github.com/JosephOzere" target="_blank" style="color: var(--primary); font-weight: 600; text-decoration: none;"><i class="fab fa-github"></i> JosephOzere</a></p>
+        </footer>
+    </div>
+    
+    <div id="notification" class="notification">
+        <i class="fas fa-check-circle"></i>
+        <span>Text copied to clipboard!</span>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
